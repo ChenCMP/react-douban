@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!--豆瓣的图片资源在网页中不能正常显示，403禁止访问，把地址放到浏览器中就可以正常访问了？
+  原因是豆瓣现在有防盗链
+	解决方法：在页面中加上 <meta name="referrer" content="never">
+	如果referer-policy的值为never：则删除http head中的referer；-->
+	<meta name="referrer" content="never">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- 这是一个容器，将来 使用 react 渲染的虚拟DOM，都会放到这个容器中 -->
+  <div id="app" style="height: 100%;"></div>
+</body>
+
+</html>
