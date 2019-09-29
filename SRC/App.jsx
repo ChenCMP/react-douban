@@ -48,7 +48,7 @@ export default class App extends React.Component{
       </Menu>
     </Header>
 		{/*中间内容区域*/}
-    <Content style={{ backgroundColor:'#fff',fles:'1'}}>      
+    <Content style={{ backgroundColor:'#fff',flex:'1'}}>      
      <Route path="/home" component={HomeContainer}></Route>
 		 <Route path="/movie" component={MovieContainer}></Route>
 		 <Route path="/about" component={AboutContainer}></Route>
